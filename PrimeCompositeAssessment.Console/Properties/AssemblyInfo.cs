@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PrimeCompositeAssessment")]
+[assembly: AssemblyTitle("PrimeCompositeAssessment.Console")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PrimeCompositeAssessment")]
+[assembly: AssemblyProduct("PrimeCompositeAssessment.Console")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3c5a71f1-6ccf-45f6-8295-b237b2b0cfbd")]
+[assembly: Guid("9ce4b054-78f3-4aac-a89b-12b2f9262060")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -34,3 +34,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config", Watch = true)]

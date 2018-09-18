@@ -19,6 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeCompositeAssessment.In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeCompositeAssessment.Infrastructure.Tests", "PrimeCompositeAssessment.Infrastructure.Tests\PrimeCompositeAssessment.Infrastructure.Tests.csproj", "{0E0E8F89-6CB2-4143-9555-C76D6DEBB53D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared.Dll", "Shared.Dll", "{35F8D312-7F86-436F-8ED3-46438FB63B56}"
+	ProjectSection(SolutionItems) = preProject
+		Shared.Dll\log4net.dll = Shared.Dll\log4net.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

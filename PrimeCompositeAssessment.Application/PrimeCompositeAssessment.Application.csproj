@@ -48,5 +48,11 @@
     <Compile Include="PrimeCompositeApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrimeCompositeAssessment.Infrastructure\PrimeCompositeAssessment.Infrastructure.csproj">
+      <Project>{92df3cce-d514-4cfa-a3f4-81fbe2e7711c}</Project>
+      <Name>PrimeCompositeAssessment.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

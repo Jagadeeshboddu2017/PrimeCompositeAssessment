@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System.Linq;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace PrimeCompositeAssessment.Application.Tests
 {
@@ -26,6 +27,17 @@ namespace PrimeCompositeAssessment.Application.Tests
             Assert.IsNotNull(_app.GetNumbersFromRange(1,100));
         }
 
-        
+        [TestMethod]
+        public void GetListWithReplacedPrimeNumberWithPrimeText_Test()
+        {
+            //Act
+            var result =_app.GetListWithReplacedPrimeNumberWithPrimeText(1, 100);
+            
+            // Assert
+            Assert.IsNotNull(result);
+            Assert.IsTrue(result.Any());
+        }
+
+
     }
 }

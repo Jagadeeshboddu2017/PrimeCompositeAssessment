@@ -38,6 +38,16 @@ namespace PrimeCompositeAssessment.Application.Tests
             Assert.IsTrue(result.Any());
         }
 
+        [TestMethod]
+        public void GetListWithReplacedCompositeNumberAndNotEvenWithCompositeText_Test()
+        {
+            //Act
+            var result = _app.GetListWithReplacedCompositeNumberAndNotEvenWithCompositeText(1, 100);
+
+            // Assert
+            Assert.IsNotNull(result);
+            Assert.IsTrue(result.Any());
+        }
 
     }
 }
